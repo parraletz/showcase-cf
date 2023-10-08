@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: parraletz/api-project
+  name: api-project
+spec:
+  lifecycle: production
+  owner: paved-roads-team
+  type: Component
